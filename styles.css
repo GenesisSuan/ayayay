@@ -1,0 +1,61 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 10; /* Eliminar márgenes predeterminados */
+    display: flex; /* Permitir centrado horizontal */
+    justify-content: center; /* Centrar todo horizontalmente */
+    align-items: center; /* Centrar todo verticalmente */
+    height: 100vh; /* Ocupar toda la altura de la pantalla */
+  }
+  
+  /* Container */
+  .container {
+    top: 0; /* Centrar en la parte superior */
+  }
+  /* Buttons */
+  #btn1, #btn2 {
+    padding: 4rem 8rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #btn1 {
+    background-color: rgb(216, 108, 106);
+    color: rgb(0, 0, 0);
+  }
+  
+  #btn2 {
+    background-color: rgb(106, 216, 112);
+    color: rgb(0, 0, 0);
+  }
+  
+  #btn1:hover {
+    background-color: #009688;
+  }
+  
+  #btn2:hover {
+    background-color: #00796b;
+  }
+  
+/* Movimientos */
+.move1 {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+  }
+  
+  .move2 {
+    position: absolute;
+    bottom: 10%;
+    right: 30%;
+  }
+  
+  .move3 {
+    position: absolute;
+    top: 15%;
+    right: 20%;
+  }
